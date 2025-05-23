@@ -19,6 +19,8 @@ Instead of hunting for random YAML files scattered across the internet, this rep
 | Stack Name | Description                          | Notes                     |
 |------------|------------------------------------|---------------------------|
 | **Gitea**  | Self-hosted Git service with MariaDB backend | Port override on 5123, ready for NGINX Proxy Manager |
+| **-darr-stack** | A full-featured media automation stack designed for Portainer | Normal port-forwarding and functional |
+| **netboot-xyz** | 
 
 *More stacks coming soon!*
 

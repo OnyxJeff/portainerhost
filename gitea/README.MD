@@ -43,7 +43,7 @@ docker compose -f gitea-stack.yml up -d
 
 ## 🌐 Access
 | Service | Port | URL Example |
-| ------- | ---- | ----------- |
+|---------|------|-------------|
 | Gitea Web UI | 5123 | http://<your-ip>:5123 |
 | Gitea SSH | 2222 | ssh://git@<your-ip>:2222/repo.git |
 

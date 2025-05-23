@@ -16,7 +16,7 @@ A full-featured media automation stack designed for Portainer. This stack includ
 
 ## 📁 File Structure
 ```text
--darr/
+darr/
 ├── docker/             # YAML stack for Sonarr/Radarr/Lidarr/Bazarr
 └── README.md           # You're reading it!
 ```
@@ -35,7 +35,7 @@ A full-featured media automation stack designed for Portainer. This stack includ
 
 ## 🌐 Access (default ports)
 | Service | Port | URL |
-| ------- | ---- | --- |
+|---------|------|-----|
 | Sonarr | 8989 | http://<your-ip>:8989 |
 | Radarr | 7878 | http://<your-ip>:7878 |
 | Lidarr | 8686 | http://<your-ip>:8686 |
