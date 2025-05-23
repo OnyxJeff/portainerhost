@@ -5,6 +5,8 @@ services:
     image: gitea/gitea:latest
     container_name: gitea
     restart: always
+    env_file:
+      - gitea.env
     volumes:
       - gitea-data:/data
     environment:
