@@ -27,6 +27,10 @@ darr/
 - NGINX Proxy Manager (optional but recommended)
 - Transmission/qBittorrent in a separate stack
 
+## 🔐 Environment Variables
+
+Create a `stack.env` file based on the included `stack.env.example`, and store it in the same directory as `darr-stack.yml`.
+
 ## 🚀 Deployment
 
 1. In Portainer, go to Stacks > Add Stack

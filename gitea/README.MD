@@ -26,6 +26,10 @@ gitea/
 - Docker + Portainer
 - Optional: NGINX Proxy Manager for domain routing + SSL
 
+## 🔐 Environment Variables
+
+Create a `gitea.env` file based on the included `gitea.env.example`, and store it in the same directory as `gitea-stack.yml`.
+
 ## 🚀 Deployment
 
 1. In Portainer, go to **Stacks** > **Add Stack**
@@ -57,16 +61,7 @@ Enable:
 - SSL (Let's Encrypt)
 - Force HTTPS
 
-## 🔐 Environment Variables
-
-Create a `gitea.env` file based on the included `gitea.env.example`, and store it in the same directory as `docker-compose.yml`.
-
-**Do not commit your real `gitea.env` file.**
-
-## 🧠 Notes
-Uses MariaDB, which is Gitea-compatible and lightweight.
-Data is persisted via Docker volumes (gitea-data, gitea-db).
-Default web UI is exposed on 5123 to avoid common port collisions.
+---
 
 ## 📜 License
 MIT — Use it, fork it, build something rad with it.
