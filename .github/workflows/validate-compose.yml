@@ -2,28 +2,29 @@ name: Validate Docker Compose Files
 
 on:
   push:
-    branches:
-      - main
-      - master
+    paths:
+      - '**/*.yml'
   pull_request:
+    paths:
+      - '**/*.yml'
 
 jobs:
-  lint:
+  validate:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Set up Docker Compose CLI
+      - name: Create dummy env file
         run: |
-          sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-linux-x86_64" -o /usr/local/bin/docker-compose
-          sudo chmod +x /usr/local/bin/docker-compose
-          docker-compose version
+          echo "MYSQL_ROOT_PASSWORD=dummy" > gitea/docker/gitea.env
+          echo "MYSQL_USER=dummy" >> gitea/docker/gitea.env
+          echo "MYSQL_PASSWORD=dummy" >> gitea/docker/gitea.env
+          echo "USER_UID=1000" >> gitea/docker/gitea.env
+          echo "USER_GID=1000" >> gitea/docker/gitea.env
 
-      - name: Validate each docker-compose.yml
+      - name: Validate Docker Compose Files
         run: |
           for file in $(find . -name '*-stack.yml'); do
             echo "Validating $file"
-            docker-compose -f "$file" config
+            docker compose -f "$file" config
           done
