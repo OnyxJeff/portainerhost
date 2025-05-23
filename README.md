@@ -1,5 +1,8 @@
 # 🚢 Portainer Templates Repository
 
+![Build](https://github.com/OnyxJeff/portainer_templates/actions/workflows/validate-compose.yml/badge.svg)
+![Maintained](https://img.shields.io/badge/maintained-yes-blue)
+
 Welcome to **portainer_templates** — the single source of truth for all my Docker stack templates, optimized for deployment via Portainer.
 
 ## Why?
