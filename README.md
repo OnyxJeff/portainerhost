@@ -26,19 +26,16 @@ Instead of hunting for random YAML files scattered across the internet, this rep
 
 ---
 
-## 🚀 Quickstart
+## 🚀 Deployment
 
 1. Clone this repo:
    ```bash
    git clone https://github.com/OnyxJeff/portainer_templates.git
    cd portainer_templates
-
+   ```
 2. Browse any stack folder (e.g., /gitea/)
-
-3. Copy the gitea-stack.yml contents into Portainer’s Stacks > Add Stack UI
-
+3. Copy the contents of the corresponding .yml file into Portainer’s Stacks > Add Stack UI
 4. Create or update .env files as needed (check each stack’s README)
-
 5. Deploy and enjoy!
 
 ---

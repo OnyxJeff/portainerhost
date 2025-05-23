@@ -28,10 +28,13 @@ darr/
 - Transmission/qBittorrent in a separate stack
 
 ## 🚀 Deployment
-- In Portainer, go to Stacks > Add Stack
-- Name your stack (e.g., darr-stack)
-- Paste in the contents of the YAML file
-- Deploy the stack
+
+1. In Portainer, go to Stacks > Add Stack
+2. Name your stack (e.g., darr-stack)
+3. Paste in the contents of the YAML file
+4. Deploy the stack
+
+---
 
 ## 🌐 Access (default ports)
 | Service | Port | URL |

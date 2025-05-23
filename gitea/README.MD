@@ -26,8 +26,6 @@ gitea/
 - Docker + Portainer
 - Optional: NGINX Proxy Manager for domain routing + SSL
 
----
-
 ## 🚀 Deployment
 
 1. In Portainer, go to **Stacks** > **Add Stack**
@@ -40,6 +38,7 @@ You can also clone this repo and deploy via CLI:
 ```bash
 docker compose -f gitea-stack.yml up -d
 ```
+---
 
 ## 🌐 Access
 | Service | Port | URL Example |

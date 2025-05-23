@@ -25,10 +25,13 @@ nginxproxymanager/
 - DNS pointed to your server IP
 
 ## 🚀 Deployment
+
 1. In Portainer, go to Stacks > Add Stack
 2. Name your stack (e.g., npm)
 3. Paste in the contents of nginxproxymanager-stack.yml
 4. Deploy and access via the default port
+
+---
 
 ## 🌐 Access
 | Service | Port | URL |
