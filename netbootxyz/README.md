@@ -29,6 +29,11 @@ netbootxyz/
 3. Paste in the contents of netbootxyz-stack.yml
 4. Deploy and configure DHCP to point to this box
 
+You can also clone this repo and deploy via CLI:
+
+```bash
+docker compose -f netbootxyz-stack.yml up -d
+```
 ---
 
 ## 🌐 Access

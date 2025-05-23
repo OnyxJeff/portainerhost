@@ -31,6 +31,11 @@ nginxproxymanager/
 3. Paste in the contents of nginxproxymanager-stack.yml
 4. Deploy and access via the default port
 
+You can also clone this repo and deploy via CLI:
+
+```bash
+docker compose -f nginxproxymanager-stack.yml up -d
+```
 ---
 
 ## 🌐 Access

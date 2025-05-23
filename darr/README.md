@@ -34,6 +34,11 @@ darr/
 3. Paste in the contents of the YAML file
 4. Deploy the stack
 
+You can also clone this repo and deploy via CLI:
+
+```bash
+docker compose -f darr-stack.yml up -d
+```
 ---
 
 ## 🌐 Access (default ports)
