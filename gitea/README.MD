@@ -50,7 +50,7 @@ docker compose -f gitea-stack.yml up -d
 ## 🔒 Reverse Proxy Setup (Optional)
 If you're using NGINX Proxy Manager:
     Set domain: git.yourdomain.com
-    Forward Host: your-local-ip
+    Forward Host: 'your-local-ip'
     Forward Port: 5123
 
 Enable:

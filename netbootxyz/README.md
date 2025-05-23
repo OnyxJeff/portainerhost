@@ -36,7 +36,7 @@ netbootxyz/
 ## 🔒 Reverse Proxy Setup (Optional)
 If you're using NGINX Proxy Manager:
     Set domain: netboot.yourdomain.com
-    Forward Host: your-local-ip
+    Forward Host: 'your-local-ip'
     Forward Port: 3000
 
 Enable:

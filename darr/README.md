@@ -36,13 +36,21 @@ darr/
 ## 🌐 Access (default ports)
 | Service | Port | URL |
 |---------|------|-----|
-| Sonarr | 8989 | http://<your-ip>:8989 |
-| Radarr | 7878 | http://<your-ip>:7878 |
-| Lidarr | 8686 | http://<your-ip>:8686 |
-| Bazarr | 6767 | http://<your-ip>:6767 |
+| Sonarr | 8989 | http://'your-local-ip':8989 |
+| Radarr | 7878 | http://'your-local-ip':7878 |
+| Lidarr | 8686 | http://'your-local-ip':8686 |
+| Bazarr | 6767 | http://'your-local-ip':6767 |
 
 ## 🔒 Reverse Proxy Setup (Optional)
-Use NGINX Proxy Manager to forward custom domains to these ports and add SSL support.
+If you're using NGINX Proxy Manager:
+    Set domain: 'service name'.yourdomain.com
+    Forward Host: 'your-local-ip'
+    Forward Port: 'service port'
+
+Enable:
+    Websockets
+    SSL (Let's Encrypt)
+    Force HTTPS
 
 ---
 
