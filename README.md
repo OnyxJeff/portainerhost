@@ -39,6 +39,8 @@ Instead of hunting for random YAML files scattered across the internet, this rep
 
 5. Deploy and enjoy!
 
+---
+
 ## 📜 License
 MIT — Use it, fork it, build something rad with it.
 
