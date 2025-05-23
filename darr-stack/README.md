@@ -20,18 +20,22 @@ A full-featured media automation stack designed for Portainer. This stack includ
 ├── docker/             # YAML stack for Sonarr/Radarr/Lidarr/Bazarr
 └── README.md           # You're reading it!
 
-## 🔧 Requirements
+---
 
+## 🔧 Requirements
 - Docker + Portainer
 - NGINX Proxy Manager (optional but recommended)
 - Transmission/qBittorrent in a separate stack
 
-## 🚀 Deployment
+---
 
+## 🚀 Deployment
 - In Portainer, go to Stacks > Add Stack
 - Name your stack (e.g., darr-stack)
 - Paste in the contents of the YAML file
 - Deploy the stack
+
+---
 
 ## 🌐 Access (default ports)
 | Service | Port | URL |
@@ -41,8 +45,12 @@ A full-featured media automation stack designed for Portainer. This stack includ
 | Lidarr | 8686 | http://<your-ip>:8686 |
 | Bazarr | 6767 | http://<your-ip>:6767 |
 
+---
+
 ## 🔒 Reverse Proxy Setup (Optional)
 Use NGINX Proxy Manager to forward custom domains to these ports and add SSL support.
+
+---
 
 ## 📜 License
 MIT — Automate your media empire.
