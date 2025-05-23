@@ -43,14 +43,14 @@ darr/
 
 ## 🔒 Reverse Proxy Setup (Optional)
 If you're using NGINX Proxy Manager:
-    Set domain: 'service name'.yourdomain.com
-    Forward Host: 'your-local-ip'
-    Forward Port: 'service port'
+- Set domain: 'service name'.yourdomain.com
+- Forward Host: 'your-local-ip'
+- Forward Port: 'service port'
 
 Enable:
-    Websockets
-    SSL (Let's Encrypt)
-    Force HTTPS
+- Websockets
+- SSL (Let's Encrypt)
+- Force HTTPS
 
 ---
 
