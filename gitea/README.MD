@@ -18,7 +18,6 @@ gitea/
 ├── docker/             # YAML-based gitea and mariadb stack
 └── README.md           # You're reading it!
 ```
-
 ---
 
 ## 🔧 Requirements
