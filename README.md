@@ -12,6 +12,16 @@ Welcome to **portainer_templates** — the single source of truth for all my Doc
 
 Instead of hunting for random YAML files scattered across the internet, this repo bundles all my curated, tested, and version-controlled Portainer stacks in one place. Deploy anything from lightweight services to complex multi-container apps with a single click.
 
+## 📁 File Structure
+```text
+portainer_templates/
+├── .github/workflows/     # CI for YAML validation
+├── darr/                  # YAML for -darr-stack container
+├── gitea/                 # YAML for gitea container
+├── netbootxyz/            # YAML for netboot-xyz container
+├── nginxproxymanager/     # YAML for nginx-proxy-manager container
+└── README.md              # You're reading it!
+```
 ---
 
 ## 📦 Included Templates
