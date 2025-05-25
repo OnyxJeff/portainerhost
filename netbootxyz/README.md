@@ -38,7 +38,7 @@ docker compose -f netbootxyz-stack.yml up -d
 
 ## 🌐 Access
 | Service | Port | URL |
-|---------|------|-----|
+|:---     |:---: |:--- |
 | Web UI  | 3000 | http://<your-ip>:3000 |
 
 ## 🔒 Reverse Proxy Setup (Optional)

@@ -40,7 +40,7 @@ docker compose -f nginxproxymanager-stack.yml up -d
 
 ## 🌐 Access
 | Service | Port | URL |
-|---------|------|-----|
+|:---     |:---: |:--- |
 | Admin Web UI | 81 | http://<your-ip>:81 |
 | HTTP Routing | 80 | Your domain |
 | HTTPS Routing | 443 | Your domain |

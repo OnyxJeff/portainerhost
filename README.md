@@ -27,7 +27,7 @@ portainer_templates/
 ## 📦 Included Templates
 
 | Stack Name | Description                          | Notes                     |
-|------------|------------------------------------|---------------------------|
+|:---        |:---:                                 |:---                       |
 | **Gitea**  | Self-hosted Git service with MariaDB backend | Port override on 5123, ready for NGINX Proxy Manager |
 | **-darr-stack** | A full-featured media automation stack designed for Portainer | Normal port-forwarding and functional |
 | **netboot-xyz** | A portable PXE boot service containerized for Portainer | Some setup in your router is required to load environment on your network |
