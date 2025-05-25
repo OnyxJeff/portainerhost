@@ -47,7 +47,7 @@ docker compose -f darr-stack.yml up -d
 
 ## 🌐 Access (default ports)
 | Service | Port | URL |
-|:---     |:---: |:--- |
+|:---:    |:---: |:---:|
 | Sonarr | 8989 | http://'your-local-ip':8989 |
 | Radarr | 7878 | http://'your-local-ip':7878 |
 | Lidarr | 8686 | http://'your-local-ip':8686 |
