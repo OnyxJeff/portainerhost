@@ -1,4 +1,4 @@
-# 🚢 Portainer Templates Repository
+# 🚢 Docker-Compose Templates Repository
 
 ![Build Status](https://github.com/OnyxJeff/docker-compose_templates/actions/workflows/validate-compose.yml/badge.svg)
 ![Maintenance](https://img.shields.io/maintenance/yes/2025.svg)
@@ -6,7 +6,7 @@
 ![GitHub release](https://img.shields.io/github/v/release/OnyxJeff/docker-compose_templates)
 ![Issues](https://img.shields.io/github/issues/OnyxJeff/docker-compose_templates)
 
-Welcome to **portainer_templates** — the single source of truth for all my Docker stack templates, optimized for deployment via Portainer.
+Welcome to **docker-compose_templates** — the single source of truth for all my Docker stack templates, optimized for deployment via Portainer.
 
 ## Why?
 
@@ -14,7 +14,7 @@ Instead of hunting for random YAML files scattered across the internet, this rep
 
 ## 📁 File Structure
 ```text
-portainer_templates/
+docker-compose_templates/
 ├── .github/workflows/     # CI for YAML validation
 ├── darr/                  # YAML for -darr-stack container
 ├── gitea/                 # YAML for gitea container
@@ -39,20 +39,22 @@ portainer_templates/
 
 ## 🚀 Deployment
 
-1. Clone this repo:
+### 1. Clone this repo:
    ```bash
-   git clone https://github.com/OnyxJeff/portainer_templates.git
-   cd portainer_templates
+   git clone https://github.com/OnyxJeff/docker-compose_templates.git
+   cd docker-compose_templates
    ```
-2. Browse any stack folder (e.g., /gitea/)
-3. Copy the contents of the corresponding .yml file into Portainer’s Stacks > Add Stack UI
-4. Create or update .env files as needed (check each stack’s README)
-5. Deploy and enjoy!
+### 2. Browse any stack folder (e.g., /gitea/)
+### 3. Copy the contents of the corresponding .yml file into Portainer’s Stacks > Add Stack UI
+### 4. Create or update .env files as needed (check each stack’s README)
+### 5. Deploy and enjoy!
 
 ---
 
 ## 📜 License
 MIT — Use it, fork it, build something rad with it.
+
+---
 
 📬 Maintained By
 Jeff M. • [@OnyxJeff](https://www.github.com/onyxjeff)
