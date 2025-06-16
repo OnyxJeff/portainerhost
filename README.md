@@ -1,10 +1,10 @@
 # 🚢 Portainer Templates Repository
 
-![Build Status](https://github.com/OnyxJeff/portainer_templates/actions/workflows/validate-compose.yml/badge.svg)
+![Build Status](https://github.com/OnyxJeff/docker-compose_templates/actions/workflows/validate-compose.yml/badge.svg)
 ![Maintenance](https://img.shields.io/maintenance/yes/2025.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
-![GitHub release](https://img.shields.io/github/v/release/OnyxJeff/portainer_templates)
-![Issues](https://img.shields.io/github/issues/OnyxJeff/portainer_templates)
+![GitHub release](https://img.shields.io/github/v/release/OnyxJeff/docker-compose_templates)
+![Issues](https://img.shields.io/github/issues/OnyxJeff/docker-compose_templates)
 
 Welcome to **portainer_templates** — the single source of truth for all my Docker stack templates, optimized for deployment via Portainer.
 
