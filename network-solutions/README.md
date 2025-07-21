@@ -12,8 +12,8 @@ A portable PXE boot service containerized for Portainer. This stack is ideal for
 
 ## 📁 File Structure
 ```text
-netbootxyz/
-├── docker/             # YAML file for netboot.xyz container
+network-solutions/
+├── docker/             # YAML file for the network_solutions stack
 └── README.md           # You're reading it!
 ```
 ---
@@ -32,14 +32,15 @@ netbootxyz/
 You can also clone this repo and deploy via CLI:
 
 ```bash
-docker compose -f netbootxyz-stack.yml up -d
+docker compose -f docker-compose.yml up -d
 ```
 ---
 
 ## 🌐 Access
-| Service | Port | URL |
-|:---:    |:---: |:---:|
-| Web UI  | 3000 | http://<your-ip>:3000 |
+| Service     | Port | URL                   |
+|:---:        |:---: |:---:                  |
+| Netboot.XYZ | 3000 | http://<your-ip>:3000 |
+| NGinxRP     | 81   | http://<your-ip>:81   |
 
 ## 🔒 Reverse Proxy Setup (Optional)
 If you're using NGINX Proxy Manager:

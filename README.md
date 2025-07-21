@@ -16,22 +16,18 @@ Instead of hunting for random YAML files scattered across the internet, this rep
 ```text
 docker-compose_templates/
 ├── .github/workflows/     # CI for YAML validation
-├── darr/                  # YAML for -darr-stack container
-├── gitea/                 # YAML for gitea container
-├── netbootxyz/            # YAML for netboot-xyz container
-├── nginxproxymanager/     # YAML for nginx-proxy-manager container
+├── _arr-suite/            # YAML for -darr-suite stack
+├── network-solutions/     # YAML for network-solutions stack
 └── README.md              # You're reading it!
 ```
 ---
 
 ## 📦 Included Templates
 
-| Stack Name | Description                          | Notes                     |
-|:---:       |:---:                                 |:---:                      |
-| **Gitea**  | Self-hosted Git service with MariaDB backend | Port override on 5123, ready for NGINX Proxy Manager |
-| **-darr-stack** | A full-featured media automation stack designed for Portainer | Normal port-forwarding and functional |
-| **netboot-xyz** | A portable PXE boot service containerized for Portainer | Some setup in your router is required to load environment on your network |
-| **nginx-proxy-manager** | An easy-to-use NGINX reverse proxy container with a full web UI for managing domains, SSL certs, and routing | Make sure to make a DNS record for this on your DHCP server and setup additional records as needed |
+| Stack Name            | Description                                                   |Notes                                                                      |
+|:---:                  |:---:                                                          |:---:                                                                      |
+| **_arr-suite**        | A full-featured media automation stack designed for Portainer | Normal port-forwarding and functional                                     |
+| **network-solutions** | A portable PXE boot service containerized for Portainer       | Some setup in your router is required to load environment on your network |
 
 *More stacks coming soon!*
 
