@@ -14,17 +14,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Create dummy env file
-        run: |
-          echo "MYSQL_ROOT_PASSWORD=dummy" > gitea/docker/gitea.env
-          echo "MYSQL_USER=dummy" >> gitea/docker/gitea.env
-          echo "MYSQL_PASSWORD=dummy" >> gitea/docker/gitea.env
-          echo "USER_UID=1000" >> gitea/docker/gitea.env
-          echo "USER_GID=1000" >> gitea/docker/gitea.env
-
       - name: Validate Docker Compose Files
         run: |
-          for file in $(find . -name '*-stack.yml'); do
+          for file in $(find . -name 'docker-compose.yml'); do
             echo "Validating $file"
             docker compose -f "$file" config
           done
