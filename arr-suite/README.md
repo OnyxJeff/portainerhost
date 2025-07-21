@@ -9,7 +9,7 @@
 [![Jackett](https://img.shields.io/badge/Jackett-blue?logo=jackett)](https://hub.docker.com/r/linuxserver/jackett)
 [![Overseerr](https://img.shields.io/badge/Overseerr-blue?logo=overseerr)](https://hub.docker.com/r/linuxserver/overseerr)
 [![Prowlarr](https://img.shields.io/badge/Prowlarr-purple?logo=prowlarr)](https://hub.docker.com/r/linuxserver/prowlarr)
-[![Tautulli](https://img.shields.io/badge/tautulli-purple?logo=tautulli)](https://hub.docker.com/r/linuxserver/tautulli)
+[![Tautulli](https://img.shields.io/badge/Tautulli-purple?logo=tautulli)](https://hub.docker.com/r/linuxserver/tautulli)
 
 A full-featured media automation stack designed for Portainer. This stack includes:
 
