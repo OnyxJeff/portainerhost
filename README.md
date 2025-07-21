@@ -1,4 +1,4 @@
-# 🚢 Docker-Compose Templates Repository
+# 🚢 Portainer Host Repository
 
 ![Build Status](https://github.com/OnyxJeff/docker-compose_templates/actions/workflows/validate-compose.yml/badge.svg)
 ![Maintenance](https://img.shields.io/maintenance/yes/2025.svg)
