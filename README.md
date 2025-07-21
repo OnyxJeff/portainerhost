@@ -25,8 +25,8 @@ docker-compose_templates/
 ## 📦 Included Templates
 
 | Stack Name            | Description                                                   | Notes                                                                     |
-|:---:                  |:---:                                                          |:---:                                                                      |
-| **_arr-suite**        | A full-featured media automation stack designed for Portainer | Normal port-forwarding and functional                                     |
+| :---:                 | :---:                                                         | :---:                                                                     |
+| **arr-suite**         | A full-featured media automation stack designed for Portainer | Normal port-forwarding and functional                                     |
 | **network-solutions** | A portable PXE boot service containerized for Portainer       | Some setup in your router is required to load environment on your network |
 
 *More stacks coming soon!*
@@ -37,10 +37,10 @@ docker-compose_templates/
 
 ### 1. Clone this repo:
    ```bash
-   git clone https://github.com/OnyxJeff/docker-compose_templates.git
-   cd docker-compose_templates
+   git clone https://github.com/OnyxJeff/portainerhost.git
+   cd portainerhost
    ```
-### 2. Browse any stack folder (e.g., /gitea/)
+### 2. Browse any stack folder (e.g., /arr-suite/)
 ### 3. Copy the contents of the corresponding .yml file into Portainer’s Stacks > Add Stack UI
 ### 4. Create or update .env files as needed (check each stack’s README)
 ### 5. Deploy and enjoy!
