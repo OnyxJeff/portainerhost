@@ -16,7 +16,7 @@ Instead of hunting for random YAML files scattered across the internet, this rep
 ```text
 docker-compose_templates/
 ├── .github/workflows/     # CI for YAML validation
-├── _arr-suite/            # YAML for -darr-suite stack
+├── arr-suite/            # YAML for -darr-suite stack
 ├── network-solutions/     # YAML for network-solutions stack
 └── README.md              # You're reading it!
 ```
@@ -24,7 +24,7 @@ docker-compose_templates/
 
 ## 📦 Included Templates
 
-| Stack Name            | Description                                                   |Notes                                                                      |
+| Stack Name            | Description                                                   | Notes                                                                     |
 |:---:                  |:---:                                                          |:---:                                                                      |
 | **_arr-suite**        | A full-featured media automation stack designed for Portainer | Normal port-forwarding and functional                                     |
 | **network-solutions** | A portable PXE boot service containerized for Portainer       | Some setup in your router is required to load environment on your network |
