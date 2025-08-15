@@ -18,20 +18,6 @@ services:
       - PGID=${PGID}
       - TZ=${TZ}
 
-  watchtower:
-    image: containrrr/watchtower
-    container_name: watchtower
-    restart: unless-stopped
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock:ro
-    environment:
-      - TZ=${TZ}
-      - WATCHTOWER_CLEANUP=true
-      - WATCHTOWER_INCLUDE_STOPPED=true
-      - WATCHTOWER_POLL_INTERVAL=1800
-      - WATCHTOWER_DEBUG=true
-    command: --schedule "0 0 4 * * *" --cleanup
-  
   lidarr:
     image: linuxserver/lidarr:latest
     container_name: lidarr
@@ -154,10 +140,10 @@ services:
       - PUID=${PUID}
       - PGID=${PGID}
       - TZ=${TZ}
-      - SECRET_ENCRYPTION_KEY=4301553cfb01a920b287cc1c055bb3c48c9c59a5fb7c182629b51891b88fec09
+      - SECRET_ENCRYPTION_KEY=dd08a83eea6404928dc407b5bb31a78069bddbd4dba9bf6c486e898cae6199b6
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock # Optional, only if you want docker integration
-      - ./homarr/appdata:/appdata
+      - ${USERDIR}/docker/homarr/appdata:/appdata
     ports:
       - '7575:7575'
 
